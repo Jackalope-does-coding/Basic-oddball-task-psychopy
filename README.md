@@ -1,1 +1,1 @@
-# Basic-oddball-task-psychopy
+# Basic barebones oddball task that can be used for eeg testing
