@@ -17,7 +17,7 @@ square = visual.Rect(win, width=100, height=100, fillColor="white", lineColor="w
 
 # Parameters
 num_trials = 20
-oddball_probability = 0.1  # 10% chance of square appearing
+oddball_probability = 0.15  # 15% chance of square appearing
 data_list = []  # Store trial data
 
 for trial in range(num_trials):
