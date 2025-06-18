@@ -6,7 +6,7 @@ import time
 from pylsl import StreamInfo, StreamOutlet
 
 # Start streaming
-stream()1
+stream()
 
 
 # Create an LSL stream for event markers
