@@ -39,12 +39,14 @@ for trial in range(num_trials):
 
     stimulus.draw()
     win.flip()
-    
-    # Send a marker when stimulus appears
-    if stimulus_type == "square": 
-        outlet.push_sample([1])  # '1' marks a square stimulus
-    else: 
-        outlet.push_sample([0])  # '0' marks a circle stimulus
+
+    # event markers
+    if stimulus_type == "square":  
+        event_marker = 1  # '1' marks a square stimulus  
+    else:  
+        event_marker = 0  # '0' marks a circle stimulus  
+
+    outlet.push_sample([event_marker])  # Send the marker  
     
     # Measure response time
     timer = core.Clock()
