@@ -1,3 +1,6 @@
+#Sandra Nitchi 2025
+#This code creates individual slices of eeg around each displayed stimulus
+
 import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import timedelta
