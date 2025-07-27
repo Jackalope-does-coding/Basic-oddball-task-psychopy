@@ -1,3 +1,6 @@
+#Sandra Nitchi 2025
+#This code analyses the data and displays only the overlapping time as a plot
+
 import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import timedelta
