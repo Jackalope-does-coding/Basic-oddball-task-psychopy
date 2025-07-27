@@ -1,3 +1,7 @@
+#Sandra Nitchi 2025
+#This is an oddball task that runs using the psychopy library
+#It is currently reliant on having the installed psychopy package and a python 3.10 environment, though this may change
+
 from psychopy import visual, core, event, data
 import random
 import csv
