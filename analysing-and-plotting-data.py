@@ -1,3 +1,4 @@
+#Sandra Nitchi 2025
 #This code plots the data as is
 
 import pandas as pd
